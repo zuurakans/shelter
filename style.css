@@ -33,9 +33,9 @@ color: #FFFFFF;
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding:60px 40px 0 40px;
-
+  padding-top:60px;
 }
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -73,8 +73,14 @@ nav{
 }
 .hero__row{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.hero__image{
+  display:block;
+}
+.hero__text{
+  max-width:460px;
 }
 .hero__title{
   font-family: 'Georgia';
@@ -146,7 +152,7 @@ nav{
 }
 .friends{
   background-color:#F6F6F6;
-  padding:80px 0 100px;
+  padding:80px 0;
   
 }
 .friends__title{
@@ -159,7 +165,61 @@ nav{
   max-width:400px;
   margin:0 auto;
   display: flex;
-align-items: center;
-text-align: center;
+  align-items: center;
+  text-align: center;
 
+}
+.friends__wrap{
+  display:flex;
+  justify-content: space-around;
+  margin-top:60px;
+}
+.friends__item{
+  background: #FAFAFA;
+  width:270px;
+  text-align: center;
+  border-radius: 9px 9px 0px 0px;
+}
+.friends__text{
+  padding:60px 0;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #545454;
+}
+.friend__button{
+  background: #FAFAFA;
+  margin-bottom: 45px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  padding:12px 45px;
+  border-radius: 100px;
+  border:2px solid #F1CDB3;
+  cursor: pointer;
+}
+.friend__button:hover{
+  background: #FDDCC4;
+}
+.friends__button{
+  background: #F1CDB3;
+  border-radius: 100px;
+  border:2px solid #F1CDB3;
+  cursor: pointer;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  padding:15px 45px;
+  margin:60px auto;
+}
+.friends__button:hover{
+  background: #FDDCC4;
 }
