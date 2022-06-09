@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.header {
+background: url(./img/start-screen-background.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.header__logo{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 110%;
+color: #F1CDB3;
+
+}
+.header__subtitle{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:60px 40px;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list{
+  list-style-type: none;
+  display: flex;
+  
+}
+.nav__item{
+  margin-right: 35px;
+}
+.nav__item:last-child{
+  margin: 0;
+}
+.nav__link {
+  text-decoration: none;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+}
+.nav__link:hover{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FAFAFA;
+  border-bottom: 1px solid #F1CDB3;
+}
+.hero__row{
+  display:flex;
+}
