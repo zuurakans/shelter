@@ -65,6 +65,47 @@ nav{
   color: #FAFAFA;
   border-bottom: 1px solid #F1CDB3;
 }
+.hero{
+  margin-top: 77px;
+}
 .hero__row{
   display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #FFFFFF;
+  max-width:310px;
+}
+.hero__text{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #CDCDCD;
+  margin:42px 0;
+}
+.hero__button{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  padding:15px 45px;
+  border:none;
+  background: #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.hero__button:hover{
+  background: #FDDCC4;
 }
