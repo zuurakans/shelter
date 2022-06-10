@@ -179,7 +179,7 @@ nav{
   border-radius: 9px 9px 0px 0px;
 }
 .friends__text{
-  padding:60px 0;
+  padding:50px 0 25px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -301,6 +301,34 @@ nav{
 }
 .footer__wrapper{
   display:flex;
+  align-items: center;
   justify-content: space-between;
   padding-top:56px;
+}
+.footer__title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #FFFFFF;
+  max-width: 270px;
+  
+}
+.footer__row{
+  display:flex;
+  align-items: center;
+  padding:37px 0 37px;
+  max-width: 270px;
+}
+.footer__text{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #F1CDB3;
+}
+.footer__img{
+  padding-right:20px;
 }
