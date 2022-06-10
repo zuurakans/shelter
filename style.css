@@ -10,7 +10,7 @@ img{
   max-width: 1200px;
   margin: 0 auto;
   padding-top:60px;
-  text-align: center;
+ 
 }
 .header {
 background: url(./img/start-screen-background.jpg) ;
@@ -80,9 +80,7 @@ nav{
 .hero__image{
   display:block;
 }
-.hero__text{
-  max-width:460px;
-}
+
 .hero__title{
   font-family: 'Georgia';
   font-style: normal;
@@ -98,10 +96,10 @@ nav{
   font-weight: 400;
   font-size: 15px;
   line-height: 160%;
-  display: flex;
-  align-items: center;
   color: #CDCDCD;
   margin:42px 0;
+  max-width:460px;
+  text-align: justify;
 }
 .hero__button{
   font-family: 'Georgia';
@@ -115,6 +113,7 @@ nav{
   background: #F1CDB3;
   border-radius: 100px;
   cursor: pointer;
+  
 }
 .hero__button:hover{
   background: #FDDCC4;
@@ -154,7 +153,7 @@ nav{
 .friends{
   background-color:#F6F6F6;
   padding:80px 0;
-  
+  text-align: center;
 }
 .friends__title{
   font-family: 'Georgia';
@@ -165,11 +164,9 @@ nav{
   color: #545454;
   max-width:400px;
   margin:0 auto;
-  display: flex;
-  align-items: center;
   text-align: center;
-
 }
+
 .friends__wrap{
   display:flex;
   justify-content: space-around;
@@ -224,4 +221,86 @@ nav{
 }
 .friends__button:hover{
   background: #FDDCC4;
+}
+.help__title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #545454;
+  padding-top:80px;
+  max-width:308px;
+  margin:0 auto;
+  text-align: center;
+}
+.donation{
+  padding:91px 0 110px;
+}
+.donation__wrap{
+  display:flex;
+  justify-content:center;
+}
+.donation__img{
+ margin-right:30px;
+}
+.donation__number{
+  max-width:380px;
+}
+.donation__title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #545454;
+  margin-bottom: 20px;
+}
+.donation__subtitle{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  color: #545454;
+}
+.donation__text{
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+.donation__row{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: #F1CDB3;
+  border-radius: 9px;
+  padding:10px 0;
+  margin:20px 0;
+  
+
+}
+.donation__image{
+  padding-right: 15px;
+}
+.donation__credit-number{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+}
+.footer{
+  background-image:url(./img/footer-gradient-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__wrapper{
+  display:flex;
+  justify-content: space-between;
+  padding-top:56px;
 }
