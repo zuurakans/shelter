@@ -234,3 +234,63 @@ nav{
   margin:0 auto;
   text-align: center;
 }
+.donation{
+  padding:91px 0 110px;
+}
+.donation__wrap{
+  display:flex;
+  justify-content:center;
+}
+.donation__img{
+ margin-right:30px;
+}
+.donation__number{
+  max-width:380px;
+}
+.donation__title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #545454;
+  margin-bottom: 20px;
+}
+.donation__subtitle{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  color: #545454;
+}
+.donation__text{
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+.donation__row{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: #F1CDB3;
+  border-radius: 9px;
+  padding:10px 0;
+  margin:20px 0;
+  
+
+}
+.donation__image{
+  padding-right: 15px;
+}
+.donation__credit-number{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+}
