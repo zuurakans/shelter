@@ -294,3 +294,13 @@ nav{
   line-height: 115%;
   color: #545454;
 }
+.footer{
+  background-image:url(./img/footer-gradient-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__wrapper{
+  display:flex;
+  justify-content: space-between;
+  padding-top:56px;
+}
