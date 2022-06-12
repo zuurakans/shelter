@@ -3,6 +3,9 @@
   padding:0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Georgia',Arial, Helvetica, sans-serif;
+}
 img{
   max-width: 100%;
 }
@@ -301,7 +304,6 @@ nav{
 }
 .footer__wrapper{
   display:flex;
-  align-items: center;
   justify-content: space-between;
   padding-top:56px;
 }
