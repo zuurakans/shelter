@@ -225,6 +225,33 @@ nav{
 .friends__button:hover{
   background: #FDDCC4;
 }
+.help{
+  padding-bottom: 100px;
+}
+.help__title{
+  
+}
+.help__row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 120px;
+  column-gap: 55px;
+}
+.help__wrap{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  row-gap: 120px;
+  column-gap: 55px;
+  padding-top: 58px;
+}
+.help__item{
+  text-align: center;
+}
+.help__item img{
+  padding-bottom: 30px;
+}
 .help__title{
   font-family: 'Georgia';
   font-style: normal;
@@ -236,6 +263,7 @@ nav{
   max-width:308px;
   margin:0 auto;
   text-align: center;
+  padding-bottom: 58px;
 }
 .donation{
   padding:91px 0 110px;
@@ -258,6 +286,7 @@ nav{
   line-height: 130%;
   color: #545454;
   margin-bottom: 20px;
+ 
 }
 .donation__subtitle{
   font-family: 'Georgia';
