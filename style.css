@@ -3,6 +3,9 @@
   padding:0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Georgia',Arial, Helvetica, sans-serif;
+}
 img{
   max-width: 100%;
 }
@@ -179,7 +182,7 @@ nav{
   border-radius: 9px 9px 0px 0px;
 }
 .friends__text{
-  padding:60px 0;
+  padding:50px 0 25px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -222,6 +225,41 @@ nav{
 .friends__button:hover{
   background: #FDDCC4;
 }
+.help{
+  padding-bottom: 100px;
+}
+.help__title{
+  
+}
+.help__row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 120px;
+  column-gap: 55px;
+}
+.help__wrap{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  row-gap: 120px;
+  column-gap: 55px;
+  padding-top: 58px;
+}
+.help__item{
+  text-align: center;
+}
+.help__item img{
+  padding-bottom: 30px;
+}
+.help__item p{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+}
 .help__title{
   font-family: 'Georgia';
   font-style: normal;
@@ -233,6 +271,7 @@ nav{
   max-width:308px;
   margin:0 auto;
   text-align: center;
+  padding-bottom: 58px;
 }
 .donation{
   padding:91px 0 110px;
@@ -255,6 +294,7 @@ nav{
   line-height: 130%;
   color: #545454;
   margin-bottom: 20px;
+ 
 }
 .donation__subtitle{
   font-family: 'Georgia';
@@ -303,4 +343,59 @@ nav{
   display:flex;
   justify-content: space-between;
   padding-top:56px;
+}
+.footer__title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #FFFFFF;
+  max-width: 270px;
+  
+}
+.footer__row{
+  display:flex;
+  align-items: center;
+  padding:37px 0 37px;
+  max-width: 270px;
+}
+.footer__text{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #F1CDB3;
+}
+.footer__img{
+  padding-right:20px;
+}
+.pets{
+  background: #F6F6F6;
+  text-align: center;
+ 
+}
+.pets__wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pets__item{
+  margin: 30px 0 88px;
+}
+.pets__logo{
+  color: #545454;
+}
+.pets__subtitle{
+  color: #292929;
+}
+.pets__link{
+  color: #545454;
+}
+.pets__link:hover{
+  color: #292929;
+}
+.pets__nav{
+  background-color: #FFFFFF;
+  padding-bottom: 30px;
 }

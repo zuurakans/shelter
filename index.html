@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href="./fonts/stylesheet.css">
   <link rel="stylesheet" href="./style.css">
   <title>Shelter</title>
 </head>
@@ -16,10 +17,10 @@
         <span class="header__subtitle">Shelter for pets in Boston</span>
       </div>
      <ul class="nav__list">
-       <li class="nav__item"><a href="#" class="nav__link">About the shelter</a></li>
-       <li class="nav__item"><a href="#" class="nav__link">Our pets</a></li>
-       <li class="nav__item"><a href="#" class="nav__link">Help the shelter</a></li>
-       <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+       <li class="nav__item"><a href="#about__shelter" class="nav__link">About the shelter</a></li>
+       <li class="nav__item"><a href="pets.html" target="_blank" class="nav__link">Our pets</a></li>
+       <li class="nav__item"><a href="#help" class="nav__link">Help the shelter</a></li>
+       <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
      </ul>
     </nav>
   
@@ -39,7 +40,7 @@
   </header>
   <main>
     
-    <section class="about">
+    <section class="about" id="about__shelter">
      <div class="about__row">
        <img class="about__image" src="./img/about-pets.png" alt="dog">
        <div class="about__wrap">
@@ -73,12 +74,52 @@
        <button class="friends__button">Get to know the rest</button>
       </div>
      </section>
-     <section class="help">
-       <!-- <h3 class="help__title">How you can help
-        our shelter</h3> -->
+     <section class="help" id="help">
+      <div class="container">
+       <h3 class="help__title">How you can help
+        our shelter</h3>
         <div class="help__row">
-          <div class="help__item"></div>
+          <div class="help__item">
+            <img src="./img/pet-food.svg" alt="pet-food">
+            <p >Pet food</p>
+          </div>
+          <div class="help__item">
+            <img src="./img/pet-food.svg" alt="pet-food">
+            <p>Transportation</p>
+          </div>
+          <div class="help__item">
+            <img src="./img/pet-food.svg" alt="pet-food">
+            <p>Toys</p>
+          </div>
+          <div class="help__item">
+            <img src="./img/pet-food.svg" alt="pet-food">
+            <p>Bowls and cups</p>
+          </div>
+          <div class="help__item">
+            <img src="./img/pet-food.svg" alt="pet-food">
+            <p>Shampoos</p>
+          </div>
         </div>
+          <div class="help__wrap">
+            <div class="help__item">
+              <img src="./img/pet-food.svg" alt="pet-food">
+              <p>Vitamins</p>
+            </div>
+            <div class="help__item">
+              <img src="./img/pet-food.svg" alt="pet-food">
+              <p>Medicines</p>
+            </div>
+            <div class="help__item">
+              <img src="./img/pet-food.svg" alt="pet-food">
+              <p>Collars / leashes</p>
+            </div>
+            <div class="help__item">
+              <img src="./img/pet-food.svg" alt="pet-food">
+              <p>Sleeping areas</p>
+            </div>
+          </div>
+        
+      </div>
      </section>
 <section class="donation">
   <div class="donation__wrap">
@@ -95,13 +136,32 @@
   </div>
 </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="contacts">
     <div class="container">
     <div class="footer__wrapper">
       <div class="footer__contact">
-
+       <h3 class="footer__title">For questions and suggestions</h3>
+       <div class="footer__row">
+         <img class="footer__img" src="./img/mail.svg" alt="mail">
+         <p class="footer__text">email@shelter.com</p>
+       </div>
+       <div class="footer__row">
+        <img class="footer__img" src="./img/phone.svg" alt="mail">
+        <p class="footer__text">+13 674 567 75 54</p>
       </div>
-      <div class="footer__address"></div>
+      
+      </div>
+      <div class="footer__address">
+        <h3 class="footer__title">We are waiting for your visit</h3>
+        <div class="footer__row">
+          <img class="footer__img" src="./img/pin.svg" alt="mail">
+          <p class="footer__text" class="footer__text">1 Central Street, Boston (entrance from the store)</p>
+        </div>
+        <div class="footer__row">
+          <img class="footer__img" src="./img/pin.svg" alt="mail">
+          <p class="footer__text">18 South Park, London </p>
+        </div>
+      </div>
       <img src="./img/footer-puppy.png" alt="footer-puppy">
     </div>
   </div>
