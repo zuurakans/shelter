@@ -112,7 +112,7 @@ nav{
   line-height: 130%;
   color: #292929;
   padding:15px 45px;
-  border:none;
+  text-decoration: none;
   background: #F1CDB3;
   border-radius: 100px;
   cursor: pointer;
