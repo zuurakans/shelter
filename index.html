@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href="./fonts/stylesheet.css">
   <link rel="stylesheet" href="./style.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
   <title>Shelter</title>
 </head>
 <body>
@@ -29,7 +33,7 @@
       <div class="hero_wrapper">
         <h2 class="hero__title">Not only people need a house</h2>
         <p class="hero__text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-        <a href="pets.html" target="_blank" class="hero__button">Make a friend</a>
+        <a href="#friends" class="hero__button">Make a friend</a>
       </div>
       <div>
         <img class="hero__image" src="./img/start-screen-puppy.png" alt="puppy">
@@ -50,7 +54,7 @@
        </div>
      </div>
     </section>
-     <section class="friends">
+     <section class="friends" id="friends">
       <div class="container">
        <h3 class="friends__title">Our friends who
         are looking for a house</h3>
@@ -71,7 +75,7 @@
           <button class="friend__button">Learn more</button>
         </div>
        </div>
-       <button class="friends__button">Get to know the rest</button>
+       <a href="pets.html" target="_blank" class="friends__button">Get to know the rest</a>
       </div>
      </section>
      <section class="help" id="help">
@@ -140,12 +144,12 @@
     <div class="container">
     <div class="footer__wrapper">
       <div class="footer__contact">
-       <h3 class="footer__title">For questions and suggestions</h3>
+       <h3 class="footer__title footer__questions">For questions and suggestions</h3>
        <div class="footer__row">
          <img class="footer__img" src="./img/mail.svg" alt="mail">
          <p class="footer__text">email@shelter.com</p>
        </div>
-       <div class="footer__row">
+       <div class="footer__row footer__mail">
         <img class="footer__img" src="./img/phone.svg" alt="mail">
         <p class="footer__text">+13 674 567 75 54</p>
       </div>
@@ -166,5 +170,6 @@
     </div>
   </div>
   </footer>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
