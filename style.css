@@ -14,7 +14,7 @@ img{
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top:60px;
+  padding:60px 20px 0;
  
 }
 .header {
@@ -82,7 +82,7 @@ nav{
   justify-content: space-around;
   align-items: center;
 }
-.hero__image{
+.hero__image img {
   display:block;
 }
 
@@ -423,6 +423,58 @@ nav{
  
 
 }
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+@media (max-width:1024px){
+  .container{
+    max-width: 970px;
+}
+}
+
 @media screen and (max-width: 768px){
+.hero__row
+ {
+  flex-direction:column;
+  width:100%;
+}
+.hero__image {
+  margin-top: 100px;
+}
+.about__row{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.about__image{
+  margin-top: 80px;
+}
+.friends__wrap{
+ 
+}
+.help__row{
+  
+}
+.donation__wrap{
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.donation__img{
+  margin-top:60px;
+}
+.footer__wrapper{
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer__dog{
+  margin:65px auto;
+  margin-bottom: 0;
+}
+}
+@media screen and (max-width: 576px){
+
+}
+@media screen and (max-width: 375px){
 
 }
