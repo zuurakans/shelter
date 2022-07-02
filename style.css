@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Georgia', sans-serif;
+  font-style: normal;
+  
 }
 
 img{
@@ -24,7 +26,6 @@ background-size: cover;
 
 }
 .header__logo{
-font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 110%;
@@ -32,8 +33,7 @@ color: #F1CDB3;
 
 }
 .header__subtitle{
-font-family: 'Arial';
-font-style: normal;
+font-family: 'Arial' ;
 font-weight: 400;
 font-size: 13px;
 line-height: 15px;
@@ -96,7 +96,6 @@ nav{
 }
 .hero__text{
   font-family: 'Arial';
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 160%;
@@ -106,7 +105,7 @@ nav{
   text-align: justify;
 }
 .hero__button{
-  font-style: normal;
+ 
   font-weight: 400;
   font-size: 17px;
   line-height: 130%;
@@ -130,7 +129,7 @@ nav{
   
 }
 .about__title{
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
@@ -145,7 +144,6 @@ nav{
 }
 .about__text{
   font-family: 'Arial';
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 160%;
@@ -158,7 +156,6 @@ nav{
   text-align: center;
 }
 .friends__title{
-  font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
@@ -183,8 +180,6 @@ nav{
 
 .friends__text{
   padding:50px 0 25px;
-  font-family: 'Georgia';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
@@ -193,8 +188,6 @@ nav{
 .friend__button{
   background: #FAFAFA;
   margin-bottom: 45px;
-  font-family: 'Georgia';
-  font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 130%;
@@ -212,7 +205,6 @@ nav{
   background: #F1CDB3;
   border-radius: 100px;
   cursor: pointer;
-  font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 130%;
@@ -235,6 +227,7 @@ nav{
   row-gap: 120px;
   column-gap: 55px;
 }
+
 .help__wrap{
   display:flex;
   flex-wrap: wrap;
@@ -250,14 +243,12 @@ nav{
   padding-bottom: 30px;
 }
 .help__item p{
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
   color: #545454;
 }
 .help__title{
-  font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
@@ -270,6 +261,7 @@ nav{
 }
 .donation{
   padding:91px 0 110px;
+  background: #F6F6F6;
 }
 .donation__wrap{
   display:flex;
@@ -282,7 +274,6 @@ nav{
   max-width:380px;
 }
 .donation__title{
-  font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
@@ -291,7 +282,6 @@ nav{
  
 }
 .donation__subtitle{
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 110%;
@@ -320,7 +310,6 @@ nav{
   padding-right: 15px;
 }
 .donation__credit-number{
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
@@ -336,7 +325,6 @@ nav{
   justify-content: space-between;
 }
 .footer__title{
-  font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
@@ -354,8 +342,6 @@ nav{
   padding-bottom:18px;
 }
 .footer__text{
-  font-family: 'Georgia';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
@@ -427,6 +413,90 @@ nav{
   width: 600px;
   height: 300px;
 }
+.popup__back{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  opacity:0;
+  pointer-events: none;
+  transition:0.5s all;
+  background: rgba(41, 41, 41, 0.6);
+}
+.popup__back.active{
+  opacity:1;
+  pointer-events: all;
+  transition:0.5s all;
+}
+.popup{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) scale(0);
+  transition:0.5s all;
+  background: #FAFAFA;
+  border-radius: 9px;
+  max-width:700px;
+  max-height: 100%;
+  padding-right:20px;
+ 
+}
+.popup.active{
+  transform:translate(-50%,-50%) scale(1);
+  transition:0.5s all;
+}
+.popup:after{
+  position:absolute;
+  content:"X";
+  top:-18px;
+  right:-28px;
+  border-radius: 50%;
+  border:1px solid #F1CDB3;;
+  padding:7px;
+
+}
+.popup__wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup__img{
+  max-width: 350px;
+  max-height:350px;
+}
+.popup__name {
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.popup__title{
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #000000;
+padding:10px 0 20px;
+}
+.popup__text{
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #000000;
+max-width:300px;
+}
+.popup__list{
+  padding-top: 20px;
+}
+.popup span{
+font-weight: 600;
+font-size: 15px;
+line-height: 110%;
+color: #000000;
+}
 @media (max-width:1024px){
   .container{
     max-width: 970px;
@@ -450,12 +520,11 @@ nav{
 .about__image{
   margin-top: 80px;
 }
-.friends__wrap{
- 
+.friends__item{
+ min-width: 49%;
+ margin:0 10px 0 0;
 }
-.help__row{
-  
-}
+
 .donation__wrap{
   flex-direction: column-reverse;
   align-items: center;

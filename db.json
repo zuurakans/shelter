@@ -1,0 +1,21 @@
+{
+  "pets":[
+  {
+    "id":1,
+  "title": "Sophia",
+  "img":"./img/pets-sophia.png"
+ },
+  {
+    "id":2,
+  "title": "Katrine",
+  "img":"./img/pets-katrine.png"
+  },
+  {
+    "id":3,
+  "title": "Jenifer",
+  "img":"./img/pets-jennifer.png"
+
+  }
+]
+}
+  
