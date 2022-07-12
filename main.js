@@ -23,25 +23,24 @@
 
 /*Getting data */ 
 
-// const petsItem = document.querySelector("pets__item");
-// const petsImage = document.querySelector("friends__image");
-// const friendsText = document.querySelector("friends__text");
-// const friendButton = document.querySelector("friend__button");
+async function getResponce (){
+  let responce=await fetch("./db.json");
+  let content=await responce.json();
+  let pets__wrap=document.querySelector('.pets__wrap');
+  for (let key in content){
+    pets__wrap.innerHTML+= `
+    <div class="friends__item pets__item">
+    <img class="friends__image" src="${content[key].img}" alt="dog">
+            <p class="friends__text">${content[key].name}</p>
+            <button class="friend__button">Learn more</button>
+          </div>
+        </div>
+    `
 
-// const responce = fetch("http://localhost:3000/pets")
-//   .then((res) => {
-//     return res.json();
-//   })
+  }
+}
+getResponce()
 
-//   .then((data) => {
-//     petsImage.innerHTML = `<img src=${data.img}/>`;
-//   })
-//   .then((data) => {
-//     petsItem.innerHTML = `<p>${data.friendsText}</p>`;
-//   })
-//   .then((data) => {
-//     petsItem.innerHTML = `<button>${data.friendButton}<button/>`;
-//   });
 
 /* Popup */
 const background=document.querySelector('.popup__back');
