@@ -8,7 +8,8 @@
     "age": "6 months",
     "inoculations": ["panleukopenia"],
     "diseases": ["none"],
-    "parasites": ["none"]
+    "parasites": ["none"],
+    "data":"mod1"
   },
   {
     "name": "Jennifer",
@@ -20,6 +21,7 @@
     "inoculations": ["none"],
     "diseases": ["none"],
     "parasites": ["none"]
+    
   },
   {
     "name": "Woody",
@@ -31,6 +33,7 @@
     "inoculations": ["adenovirus", "distemper"],
     "diseases": ["right back leg mobility reduced"],
     "parasites": ["none"]
+   
   },
   {
     "name": "Sophia",
