@@ -20,7 +20,7 @@ img{
  
 }
 .header {
-background: url(../assets/images/start-screen-background.jpg );
+background: url(./img/start-screen-background.jpg );
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -388,7 +388,7 @@ nav{
   color: #545454;
 }
 .footer{
-  background-image:url(../assets/images/footer-gradient-background.jpg);
+  background-image:url(./img/footer-gradient-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
